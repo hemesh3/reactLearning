@@ -1,0 +1,9 @@
+.student {
+    border: 2px solid black;
+    width: 300px;
+    margin: 10px;
+}
+
+.student h2 {
+    padding-left: 20px;
+}
