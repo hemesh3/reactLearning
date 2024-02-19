@@ -9,8 +9,11 @@ fruits.sort((a,b) => a.name.localeCompare(b.name));
     const itemList = fruits.map( fruit => (<li key={fruit.id}> {fruit.name.toUpperCase()} : <b>{fruit.calories} </b>  </li>) );
   return (
     <>
+    <div className="border">
+            <h2>List Section</h2>
       <h3>{props.categ}</h3>
       <ol>{itemList}</ol>
+      </div>
     </>
   )
 }
