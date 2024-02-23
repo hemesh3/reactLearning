@@ -4,6 +4,7 @@ import List from "./components/List"
 import Student from "./components/Student"
 import Button from "./components/Button"
 import Addcar from "./components/Addcar"
+import Todolist from "./components/Todolist"
 
 function App() {
   const fruits = [
@@ -26,6 +27,7 @@ function App() {
       <List item={fruits} categ='Fruits'/>
       <Button/>
       <Addcar/>
+      <Todolist/>
       <Footer/>
     </>
   )
