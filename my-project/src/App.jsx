@@ -7,6 +7,7 @@ import Addcar from "./components/Addcar"
 import Todolist from "./components/Todolist"
 import Useeffecttask from "./components/Useeffecttask"
 import DigitalClock from "./components/DigitalClock"
+import UseContexttask from "./components/UseContexttask"
 
 function App() {
   const fruits = [
@@ -32,6 +33,7 @@ function App() {
       <Todolist/>
       <Useeffecttask/>
       <DigitalClock/>
+      <UseContexttask/>
       <Footer/>
     </>
   )

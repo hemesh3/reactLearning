@@ -1,6 +1,7 @@
-import React from 'react'
-
+import React ,{useContext} from 'react'
+import {contextValue} from './UseContexttask'
 const Header = () => {
+    const username2 = useContext(contextValue);
     return (
         <>
             <i className="bi bi-list mobile-nav-toggle d-lg-none"></i>
@@ -13,6 +14,7 @@ const Header = () => {
                         <li><a href="#portfolio" className="nav-link scrollto"><i className="bx bx-book-content"></i> <span>Portfolio</span></a></li>
                         <li><a href="#services" className="nav-link scrollto"><i className="bx bx-server"></i> <span>Services</span></a></li>
                         <li><a href="#contact" className="nav-link scrollto"><i className="bx bx-envelope"></i> <span>Contact</span></a></li>
+                        <p>{username2}</p>
                     </ul>
                 </nav>
             </header>
