@@ -5,6 +5,8 @@ import Student from "./components/Student"
 import Button from "./components/Button"
 import Addcar from "./components/Addcar"
 import Todolist from "./components/Todolist"
+import Useeffecttask from "./components/Useeffecttask"
+import DigitalClock from "./components/DigitalClock"
 
 function App() {
   const fruits = [
@@ -28,6 +30,8 @@ function App() {
       <Button/>
       <Addcar/>
       <Todolist/>
+      <Useeffecttask/>
+      <DigitalClock/>
       <Footer/>
     </>
   )
